@@ -7,8 +7,8 @@ namespace ChristmasWithTypes
         public string Santa { get; set; }
         public int TreeHeight { get; set; } //TODO Make the Height property nullable
 
-        //TODO Make the property, "Day", type enum
-        public enum Day { /*Fill out the days of the week*/ };
+        //Done Make the property, "Day", type enum
+        public enum Day { Sunday, monday, tuesdat, wednesday, thursday, friday, saturday };
 
     }
 }
